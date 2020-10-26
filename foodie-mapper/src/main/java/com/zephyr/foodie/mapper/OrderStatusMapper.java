@@ -1,0 +1,8 @@
+package com.zephyr.foodie.mapper;
+
+
+import com.zephyr.base.mapper.MyMapper;
+import com.zephyr.foodie.model.OrderStatus;
+
+public interface OrderStatusMapper extends MyMapper<OrderStatus> {
+}

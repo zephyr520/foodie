@@ -31,3 +31,7 @@ spring:
 mybatis:
   type-aliases-package: com.zephyr.foodie.model # 所有POJO类所在包路径
   mapper-locations: classpath:mapper/*.xml # mapper映射文件
+mapper:
+  mappers: com.zephyr.base.mapper.MyMapper
+  not-empty: false
+  identity: MYSQL
